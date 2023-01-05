@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(images/bg-desktop.svg);
+    background-color:hsl(140, 40%, 49%) ;
+}
+.contenedor{
+    margin: 0 auto;
+    height: 100vh;
+    max-width: 1400px;
+}
+.superior{
+    width: 180px;
+    padding-bottom: 20px;
+
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+}
+
+
+.contenido  h1{
+color: rgb(255, 255, 255);
+font-family: 'Poppins', sans-serif;
+margin-bottom: 20px;
+}
+
+.contenido p{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+
+}
+
+.contenido a{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding: 13px 50px;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(165, 45%, 44%); }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,400;1,600&display=swap');
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;*/
